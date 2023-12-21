@@ -1,0 +1,33 @@
+.navbar {
+    width: 1005;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo_div {
+    display: flex;
+    max-width: 178px;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar__main__menu {
+    width: 379px;
+    /* max-width: 379px;  negadir bu usulda ishlamadi*/
+    /* width: 100%; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar__main {
+    max-width: 705px;
+    width: 100%;
+    height: 43px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
