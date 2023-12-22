@@ -31,3 +31,14 @@
     justify-content: space-between;
     align-items: center;
 }
+
+.navbar__main__menu__links {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 28px;
+    color: #22343D;
+}
+
+.navbar__main__menu__links:hover {
+    font-weight: 600;
+}

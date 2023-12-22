@@ -2,6 +2,8 @@ import React, { Fragment } from 'react'
 import logotip from '../assets/Group190.svg'
 import logo from '../assets/Product.svg'
 import './header.css'
+import Navbar_btns from './Navbar_btns'
+import Hero from './Hero'
 const Header = () => {
     return (
         <Fragment>
@@ -15,18 +17,17 @@ const Header = () => {
                             </div>
                             <div className="navbar__main">
                                 <ul className="navbar__main__menu">
-                                    <li><a href="/">Product</a></li>
-                                    <li><a href="/">Customers</a></li>
-                                    <li><a href="/">Pricing </a></li>
-                                    <li><a href="/">Resources</a></li>
+                                    <li><a className="navbar__main__menu__links" href="/">Product</a></li>
+                                    <li><a className="navbar__main__menu__links" href="/">Customers</a></li>
+                                    <li><a className="navbar__main__menu__links" href="/">Pricing </a></li>
+                                    <li><a className="navbar__main__menu__links" href="/">Resources</a></li>
                                 </ul>
-                                <button className="">Sign In</button>
-                                <button className="">Sign Up</button>
-                                <button><i class='bx bxs-adjust-alt'></i></button>
+                                <Navbar_btns />
                             </div>
                         </div>
                     </div>
                 </nav>
+                <Hero />
             </header>
         </Fragment>
     )
